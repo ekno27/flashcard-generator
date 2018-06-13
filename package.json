@@ -1,0 +1,23 @@
+{
+  "name": "flashcard-generator",
+  "version": "1.0.0",
+  "description": "create a basic, command-line flashcard application. Your flashcard objects should be created using constructors",
+  "main": "BasicCard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekno27/flashcard-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekno27/flashcard-generator/issues"
+  },
+  "homepage": "https://github.com/ekno27/flashcard-generator#readme",
+  "dependencies": {
+    "inquirer": "^6.0.0"
+  }
+}
