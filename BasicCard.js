@@ -1,7 +1,9 @@
 //basic card
 function BasicCard(front, back){
+    this.type ="basic";
     this.front = front;
-    this.back = back;
+    this.back = back.toLowerCase();
+    
 }
 
 module.exports = BasicCard;

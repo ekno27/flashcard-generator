@@ -1,5 +1,6 @@
 function ClozeCard(text, cloze){
     this.fullText = text;
+    this.type = "cloze";
 
     this.cloze = cloze;
     if(this.fullText.indexOf(this.cloze)>=0){
